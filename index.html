@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Генератор на ГФО Документи</title>
+    <link rel="stylesheet" href="style.css">
+    </link>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Изготвяне на документи за обявяване на ГФО</h1>
+        <div class="nav">
+            <div id="name">Име на фирма:
+                <input id="companyName">
+            </div>
+    
+            <div id="EIKcode">ЕИК:
+                <input id="eik">
+            </div>
+    
+            <div id="boss">Управител/Представител
+                <input id="manager">
+            </div>
+
+
+            <div id="egn">ЕГН:
+                <input id="managerEgn">
+            </div>
+      
+        <div class='buttons'>
+            <div>
+                <button id="genButton">Генерирай</button>
+            </div>
+
+            <div>
+                <button id="clearButton">Изчистване</button>
+            </div>
+        </div>    
+            
+        </div>
+        <div class='prepDocs'>
+            <div id="declarationText">Декларация ГФО
+                <textarea id="declaration"></textarea>
+            </div>
+    
+            <div>
+                <textarea id="poa"></textarea>
+            </div>
+    
+            <div>
+                <textarea id="declaration13"></textarea>
+            </div>    
+        </div>
+        
+
+    </div>
+    <script type= "module" src="app.js"></script>
+</body>
+
+</html>
