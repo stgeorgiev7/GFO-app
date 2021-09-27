@@ -32,5 +32,4 @@ export default function declarationGFO (company, eik, egn, manager) {
     return result
 };
 
-declarationGFO('"Джони 13" ЕООД');
 

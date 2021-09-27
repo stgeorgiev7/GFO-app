@@ -2,7 +2,6 @@ import declarationGFO from './declarationGFO.js';
 import poa from './poa.js';
 import declaration13 from './declaration13.js';
 
-console.log('rabotq');
 const input = {
     companyName: document.querySelector('#companyName'),
     eik: document.querySelector('#eik'),
